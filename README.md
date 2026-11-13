@@ -1,6 +1,6 @@
 # Segmentation marketing de clients par clustering (K-Means)
 
-[![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asaphmbere18-hub/segmentation-marketing-clients/blob/main/Segmentation_Marketing_Clients_Portfolio.ipynb)
+[![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asaphmbere18-hub/segmentation-marketing-clients/blob/main/Segmentation_Marketing_Clients.ipynb)
 ![Python](https://img.shields.io/badge/Python-3-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-K--Means%20%7C%20ACP%20%7C%20t--SNE-orange)
 
