@@ -35,7 +35,7 @@ Une entreprise de produits de consommation veut mieux connaître sa clientèle p
 - **Contenu :** 2 240 clients et 29 colonnes : profil (année de naissance, revenu, enfants), dépenses sur 6 catégories de produits, achats par canal (web, catalogue, magasin), visites web, réponses à 6 campagnes marketing.
 - **Après nettoyage :** 2 046 clients.
 
-Le fichier de données n'est pas inclus dans ce dépôt : téléchargez-le depuis la page Kaggle ci-dessus.
+Le fichier `marketing_campaign.csv` est inclus dans ce dépôt : le notebook le lit directement, sans téléchargement.
 
 ## Démarche
 
@@ -97,24 +97,21 @@ Une séparation plus nette sur un graphique ne prouve pas un meilleur clustering
 ## Lancer le notebook
 
 **Google Colab (le plus simple)**
-1. Téléchargez `marketing_campaign.csv` depuis [Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis).
-2. Cliquez sur le badge « Open in Colab » en haut de cette page.
-3. Exécutez les cellules dans l'ordre. La première cellule de chargement vous demande de téléverser le fichier.
+1. Cliquez sur le badge « Open in Colab » en haut de cette page.
+2. Exécutez les cellules dans l'ordre. Les données sont lues directement depuis ce dépôt GitHub, rien à téléverser.
 
 **En local**
 ```bash
 git clone https://github.com/asaphmbere18-hub/segmentation-marketing-clients.git
 cd segmentation-marketing-clients
 pip install -r requirements.txt
-# placez marketing_campaign.csv dans ce dossier, puis :
 jupyter notebook Segmentation_Marketing_Clients_Portfolio.ipynb
 ```
-
-Le notebook accepte aussi le fichier sous le nom `marketing_campaign.xls` (même contenu, séparateur tabulation).
 
 ## Structure du dépôt
 ```
 ├── Segmentation_Marketing_Clients_Portfolio.ipynb   # notebook complet, avec les résultats
+├── marketing_campaign.csv                           # données (2 240 clients, séparateur tabulation)
 ├── images/                                          # graphiques repris dans ce README
 ├── requirements.txt
 └── README.md
